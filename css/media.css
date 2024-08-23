@@ -1,0 +1,629 @@
+/* EXTRA SMALL DEVICES (PORTRAIT PHONE, less than 576px) */
+@media (max-width: 575.98px) {
+  /* VARIABLES START */
+  :root {
+    --large-section-padding: 110px 0;
+    --small-section-padding: 50px 0;
+    --heading-size: 32px;
+    --text-size: 16px;
+  }
+  /* VARIABLES END */
+
+  /* HEADER START */
+  header {
+    padding: 20px 0;
+  }
+  header ul,
+  .header-button,
+  nav {
+    display: none;
+  }
+  .hamburger-toggler {
+    display: block;
+  }
+  .hamburger-menu.active {
+    display: block;
+  }
+  .hamburger-menu {
+    padding: 20px 0;
+    min-height: 80vh;
+  }
+  /* HEADER END */
+
+  /* BANNER START */
+  .banner .flex-wrapper {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .banner {
+    padding: 40px 0 40px;
+  }
+  .banner h2 {
+    padding-right: 0;
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .banner p {
+    padding-right: 0;
+  }
+  .banner-image img {
+    width: 280px;
+  }
+  /* BANNER END */
+
+  /* SERVICE START */
+  .common-heading p {
+    margin-bottom: 40px;
+    padding: 16px 0 0;
+  }
+  .service .flex-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 27px;
+  }
+  .col-lg-4 {
+    width: 100%;
+  }
+  /* SERVICE END */
+
+  /* PROJECT START */
+  .project .common-heading h1 {
+    padding-right: 0;
+    font-size: 30px;
+  }
+  .project .common-heading p {
+    padding: 16px 0 16px 0;
+  }
+  .project-button .common-button {
+    font-weight: 500;
+  }
+  .project-contents {
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .first-column {
+    gap: 50px;
+    width: 100%;
+  }
+  .second-column {
+    width: 100%;
+  }
+  .box-1,
+  .box-4 {
+    width: 100%;
+  }
+  .box-4 {
+    margin-left: 0;
+  }
+  /* PROJECT END */
+
+  /* COUNTDOWN START */
+  .counter-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .counter-box {
+    padding: 56px 0 0;
+  }
+  .first-counter .counter-box {
+    padding-top: 0;
+  }
+  /* COUNTDOWN END */
+
+  /* REVIEW & FORM START */
+  /* Review */
+  .review-form .common-heading h1 {
+    font-size: 27px;
+  }
+  .review {
+    margin: 110px 0 30px; /*large no. is given for the top margin to keep an breating space betweeen "the review" and "the common-heading para"*/
+  }
+  .review .flex-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+  }
+  .people-review {
+    padding-right: 0px;
+  }
+  /* Form */
+  .form .flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .form {
+    margin-top: 140px;
+  }
+  .inputs input,
+  select,
+  textarea {
+    width: 280px;
+  }
+  .contact {
+    width: 100%;
+  }
+  /* REVIEW & FORM END */
+
+  /* FOOTER START */
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px 0 40px;
+  }
+  .footer-copywrite {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  .footer-links {
+    width: 100%;
+  }
+  .footer-copywrite p {
+    padding-right: 0;
+  }
+  .footer-links .flex-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .footer-links .col-lg-4 {
+    justify-content: center;
+    gap: 0px;
+    margin: auto;
+    width: 40%;
+  }
+  /* FOOTER END */
+}
+
+/* SMALL DEVICES (LANSCAPE PHONE, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* VARIABLES START */
+  :root {
+    --small-section-padding: 60px 0;
+    --text-size: 16px;
+    --large-section-padding: 130px 0;
+  }
+  /* VARIABLES END */
+
+  /* HEADER START */
+  header {
+    padding: 25px 0;
+  }
+  header ul,
+  .header-button,
+  nav {
+    display: none;
+  }
+  .hamburger-toggler {
+    display: block;
+  }
+  .hamburger-menu.active {
+    display: block;
+  }
+  .hamburger-menu {
+    padding: 30px 0;
+    min-height: 80vh;
+  }
+  /* HEADER END */
+
+  /* BANNER START */
+  .banner .flex-wrapper {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .banner {
+    padding: 50px 0 50px;
+  }
+  .banner h2 {
+    padding-right: 0;
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .banner p {
+    padding-right: 0;
+  }
+  .banner-image img {
+    width: 450px;
+  }
+  /* BANNER END */
+
+  /* SERVICE START */
+  .common-heading p {
+    margin-bottom: 50px;
+    padding: 16px 60px 0;
+  }
+  .service .flex-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 27px;
+  }
+  .col-lg-4 {
+    width: 88%;
+  }
+  /* SERVICE END */
+
+  /* PROJECT START */
+  .project .common-heading h1 {
+    padding-right: 100px;
+  }
+  .project .common-heading p {
+    padding: 16px 100px 0 0;
+  }
+  .project-contents {
+    margin-top: 60px;
+  }
+  .project-box h2 {
+    font-size: 16px;
+  }
+  .project-box p {
+    padding-right: 0;
+    font-size: 13px;
+  }
+  .box-4 {
+    margin-left: 36px;
+  }
+  .first-column {
+    gap: 50px;
+  }
+  .second-column {
+    gap: 50px;
+  }
+  .project-button .common-button {
+    font-weight: inherit;
+  }
+  /* PROJECT END */
+
+  /* COUNTDOWN START */
+  .counter-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .counter-box {
+    padding: 20px 0;
+  }
+  .countdown .col-lg-4 {
+    width: 50% !important;
+  }
+  /* COUNTDOWN END */
+
+  /* REVIEW & FORM START */
+  /* Review */
+  .review {
+    margin: 120px 0 50px; /*large no. is given for the top margin to keep an breating space betweeen "the review" and "the common-heading para"*/
+  }
+  .review .flex-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+  }
+  .people-review {
+    padding-right: 0px;
+  }
+  /* Form */
+  .flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .form {
+    margin-top: 150px;
+  }
+  .inputs input,
+  select,
+  textarea {
+    width: 520px;
+  }
+  .contact {
+    width: 100%;
+  }
+  /* REVIEW & FORM END */
+
+  /* FOOTER START */
+  footer {
+    --mini-text-size: 12px;
+  }
+  .footer-wrapper {
+    padding: 70px 0 40px;
+  }
+  .logo {
+    font-size: 26px;
+  }
+  .footer-copywrite {
+    padding-bottom: 42px;
+  }
+  .footer-copywrite p {
+    padding-right: 20px;
+  }
+  .footer-links .flex-wrapper {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .first-links h2 {
+    --mini-heading-size: 14px;
+  }
+
+  /* FOOTER END */
+}
+
+/* MEDIUM DEVICES (TABLETS, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* VARIABLES START */
+  :root {
+    --large-section-padding: 150px 0;
+    --small-section-padding: 70px 0;
+    --text-size: 16px;
+  }
+  /* VARIABLES END */
+
+  /* HEADER START */
+  header {
+    padding: 25px 0;
+  }
+  header ul,
+  .header-button,
+  nav {
+    display: none;
+  }
+  .hamburger-toggler {
+    display: block;
+  }
+  .hamburger-menu.active {
+    display: block;
+  }
+  .hamburger-menu {
+    padding: 40px 0;
+  }
+  /* HEADER END */
+
+  /* BANNER START */
+  .banner {
+    padding: 50px 0 60px;
+  }
+  .banner h2 {
+    padding-right: 0;
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .banner p {
+    padding-right: 40px;
+  }
+  .banner-image img {
+    width: 380px;
+  }
+  /* BANNER END */
+
+  /* SERVICE START */
+  .common-heading p {
+    margin-bottom: 60px;
+    padding: 16px 140px 0;
+  }
+  .service .flex-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 27px;
+  }
+  .col-lg-4 {
+    width: 48%;
+  }
+  /* SERVICE END */
+
+  /* PROJECT START */
+  .project .common-heading h1 {
+    padding-right: 300px;
+  }
+  .project .common-heading p {
+    padding: 16px 260px 0 0;
+  }
+  .project-contents {
+    margin-top: 55px;
+  }
+  .project-box h2 {
+    font-size: 18px;
+  }
+  .project-box p {
+    padding-right: 0;
+  }
+  .box-4 {
+    margin-left: 48px;
+  }
+  /* PROJECT END */
+
+  /* COUNTDOWN START */
+  .counter-box {
+    padding: 0;
+  }
+  /* COUNTDOWN END */
+
+  /* REVIEW & FORM START */
+  /* Review */
+  .review {
+    margin: 80px 0 50px;
+  }
+  .review .flex-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 26px;
+  }
+  .people-review {
+    padding-right: 0px;
+  }
+  .review-box-3 {
+    margin-top: 35px;
+  }
+  /* Form */
+  .contact {
+    width: 44%;
+  }
+  .form {
+    margin-top: 160px;
+  }
+  .inputs input,
+  select,
+  textarea {
+    width: 330px;
+  }
+  /* REVIEW & FORM END */
+
+  /* FOOTER START */
+  .footer-copywrite p {
+    padding-right: 50px;
+  }
+  .footer-wrapper {
+    padding: 80px 0 40px;
+  }
+  /* FOOTER END */
+}
+
+/* LARGE DEVICES (DESKTOPS, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* VARIABLES START */
+  :root {
+    --large-section-padding: 170px 0;
+    --small-section-padding: 80px 0;
+    --text-size: 16px;
+  }
+  /* VARIABLES END */
+
+  /* HEADER START */
+  header .container ul {
+    gap: 30px;
+  }
+  /* HEADER END */
+
+  /* BANNER START */
+  .banner {
+    padding: 50px 0 80px;
+  }
+  .banner h2 {
+    padding-right: 0;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: 70px;
+  }
+  .banner p {
+    padding-right: 120px;
+  }
+  .banner-image img {
+    width: 450px;
+  }
+  /* BANNER END */
+
+  /* SERVICE START */
+  .common-heading p {
+    padding: 16px 260px 0;
+  }
+  .service-contents p {
+    padding: 0 5px;
+  }
+  /* SERVICE END */
+
+  /* PROJECT START */
+  .project .common-heading h1 {
+    padding-right: 500px;
+  }
+  .project .common-heading p {
+    padding: 16px 500px 0 0;
+  }
+  .project-contents {
+    margin-top: 70px;
+    margin-top: 60px;
+  }
+  .box-4 {
+    margin-left: 98px;
+    margin-left: 68px;
+  }
+  /* PROJECT END */
+
+  /* REVIEW-FORM START */
+  /* Review */
+  .people-review {
+    padding-right: 0px;
+    line-height: 24px;
+  }
+
+  /* Form */
+  .form {
+    margin-top: 170px;
+  }
+  .inputs input,
+  select,
+  textarea {
+    width: 450px;
+  }
+  /* REVIEW-FORM END */
+
+  /* FOOTER START */
+  .footer-copywrite p {
+    padding-right: 140px;
+  }
+  .footer-wrapper {
+    padding: 90px 0 40px;
+  }
+  /* FOOTER END */
+}
+
+/* EXTRA LARGE DEVICES (LARGE DESKTOPS, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* BANNER START */
+  .banner {
+    padding: 50px 0 80px;
+  }
+  .banner h2 {
+    padding-right: 0;
+  }
+  .banner p {
+    padding-right: 140px;
+  }
+  /* BANNER END */
+
+  /* SERVICE START */
+  .common-heading p {
+    padding: 16px 300px 0;
+  }
+  .box {
+    padding: 38px 20px 52px;
+  }
+  /* SERVICE END */
+
+  /* PROJECT START */
+  .project .common-heading h1 {
+    padding-right: 700px;
+  }
+  .project .common-heading p {
+    padding: 16px 600px 0 0;
+  }
+  .box-4 {
+    /* margin-left: 98px; */
+    margin-left: 79px;
+  }
+  /* PROJECT END */
+
+  /* REVIEW & FORM START */
+  /* Review */
+  .people-review {
+    padding-right: 0px;
+  }
+  /* Form */
+  .inputs input,
+  select,
+  textarea {
+    width: 530px;
+  }
+  /* REVIEW & FORM END */
+
+  /* FOOTER START */
+  .footer-copywrite p {
+    padding-right: 240px;
+  }
+  /* FOOTER END */
+}
+
+/* EXTRA EXTRA LARGE DEVICES (LARGE DESKTOPS, 1400px and up) */
+@media (min-width: 1400px) {
+}
